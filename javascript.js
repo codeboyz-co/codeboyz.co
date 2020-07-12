@@ -7,10 +7,10 @@ function showForm() {
     form.style.display = form.style.display === 'none' ? 'block' : 'none';
 }
 function hideForm() {
-    
-    if(!form) {
+    const form1 = document.querySelector('form')
+    if(!form1) {
         return;
     }
-    form.style.display = form.style.display === 'none' ? 'block' : 'none';
-    return <p>Bedankt voor het invullen! Uw gegevens worden verwerkt.</p>
+    form1.style.display = form1.style.display === 'none' ? 'block' : 'none';
+     console.log("Bedankt voor het invullen! Uw gegevens worden verwerkt.")
 }
