@@ -14,9 +14,8 @@ function hideForm() {
     }
     else {
     form1.style.display = form1.style.display === 'none' ? 'block' : 'none';
+    document.getElementById("invultekst").innerHTML = "Bedankt voor het invullen!"
     }
-    return "Bedankt voor het invullen!";
-    
 }
 const dataStore = require('nedb')
 const database = new dataStore('datastore.db')
