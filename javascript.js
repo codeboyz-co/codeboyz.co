@@ -12,6 +12,9 @@ function hideForm() {
     if(!form1) {
         return;
     }
+    else {
     form1.style.display = form1.style.display === 'none' ? 'block' : 'none';
+    }
     return <p>Bedankt voor het invullen!</p>
+    
 }
