@@ -4,6 +4,7 @@
   "description": "website codeboyz",
   "main": "javascript.js",
   "dependencies": {
+    "blitz": "^0.16.3",
     "node.js": "^0.0.1-security"
   },
   "devDependencies": {
