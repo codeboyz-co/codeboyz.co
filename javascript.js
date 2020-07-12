@@ -14,6 +14,6 @@ function hideForm() {
     }
     
     form1.style.display = form1.style.display === 'none' ? 'block' : 'none';
-    document.querySelector('p').innerHTML = "Bedankt voor het invullen!"
+    document.getElementById("invultekst").innerHTML = "Bedankt voor het invullen!"
     
 }
