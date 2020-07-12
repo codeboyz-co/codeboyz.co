@@ -9,15 +9,15 @@ function showForm() {
     }
 }
 function hideForm() {
-    
+    let hoi = document.getElementById("invultekst").innerHTML
     const form1 = document.querySelector('form')
     if(!form1) {
         return;
     }
     else {
     form1.style.display = form1.style.display === 'none' ? 'block' : 'none';
-    
+    hoi = "Bedankt voor het invullen!"
     document.getElementById('button').style.display = 'none' 
-    alert("Bedankt voor het invullen! Uw gegevens worden verwerkt.")
+    alert("Bedankt voor het invullen! Uw gegevens worden")
     }
 }
