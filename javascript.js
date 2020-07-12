@@ -3,8 +3,9 @@ function showForm() {
     if (!form) {
         return;
     }
-
+    else {
     form.style.display = form.style.display === 'none' ? 'block' : 'none';
+    }
 }
 function hideForm() {
     const form1 = document.querySelector('form')
