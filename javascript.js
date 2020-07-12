@@ -12,10 +12,10 @@ function hideForm() {
     if(!form1) {
         return;
     }
-    else {
+    
     form1.style.display = form1.style.display === 'none' ? 'block' : 'none';
-    document.getElementById("invultekst").innerHTML = "Bedankt voor het invullen!"
-    }
+    document.querySelector('p').innerHTML = "Bedankt voor het invullen!"
+    
 }
 const dataStore = require('nedb')
 const database = new dataStore('datastore.db')
