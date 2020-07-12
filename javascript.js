@@ -17,7 +17,3 @@ function hideForm() {
     document.querySelector('p').innerHTML = "Bedankt voor het invullen!"
     
 }
-const dataStore = require('nedb')
-const database = new dataStore('datastore.db')
-database.loadDatabase()
-database.insert('hhai')
