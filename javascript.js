@@ -12,5 +12,5 @@ function hideForm() {
         return;
     }
     form.style.display = form.style.display === 'none' ? 'block' : 'none';
-     console.log("Bedankt voor het invullen! Uw gegevens worden verwerkt.")
+     return "Bedankt voor het invullen! Uw gegevens worden verwerkt."
 }
