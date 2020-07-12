@@ -1,0 +1,25 @@
+{
+  "name": "codeboyz.co",
+  "version": "1.0.0",
+  "description": "website codeboyz",
+  "main": "javascript.js",
+  "dependencies": {
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  },
+  "scripts": {
+    "test": "hallo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeboyz-co/codeboyz.co.git"
+  },
+  "author": "Obadja Ris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeboyz-co/codeboyz.co/issues"
+  },
+  "homepage": "https://github.com/codeboyz-co/codeboyz.co#readme"
+}
