@@ -1,3 +1,4 @@
+let hoi = document.getElementById("invultekst").innerHTML
 function showForm() {
     const form = document.querySelector('form');
     if (!form) {
@@ -14,6 +15,6 @@ function hideForm() {
     }
     
     form1.style.display = form1.style.display === 'none' ? 'block' : 'none';
-    document.getElementById("invultekst").innerHTML = "Bedankt voor het invullen!"
+    hoi = "Bedankt voor het invullen!"
     
 }
