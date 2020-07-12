@@ -1,15 +1,16 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="javascript.js"></script>
-    </head>
-    <body>
-        <button id="button" onclick="showForm();">Click</button>
-        <form>
-            Naam: <input type="text">
-             <br> Email-adres: <input type="text">
-             <br> Telefoonnummer (optioneel): <input type="text">
-            <br> <button  onclick="hideForm()">Verstuur</button>
-        </form>
-    </body>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <button class="toggle">Click</button>
+    <form action="javascript://">
+      Naam: <input type="text">
+      <br>Email-adres: <input type="text">
+      <br>Telefoonnummer (optioneel): <input type="text">
+      <br><button>Verstuur</button>
+    </form>
+    <script>new Contact();</script>
+  </body>
 </html>

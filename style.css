@@ -1,6 +1,3 @@
-form {
-    display: none;
-}
-#button {
-    display: 'block'
+form:not(.visible) {
+  display: none;
 }
