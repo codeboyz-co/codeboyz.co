@@ -8,7 +8,7 @@ function showForm() {
 }
 function hideForm() {
     const form1 = document.querySelector('form')
-    if(!form) {
+    if(!form1) {
         return;
     }
     form1.style.display = form1.style.display === 'none' ? 'block' : 'none';
