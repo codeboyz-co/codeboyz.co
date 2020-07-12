@@ -1,4 +1,4 @@
-let hoi = document.getElementById("invultekst").innerHTML
+
 function showForm() {
     const form = document.querySelector('form');
     if (!form) {
@@ -9,6 +9,7 @@ function showForm() {
     }
 }
 function hideForm() {
+    let hoi = document.getElementById("invultekst").innerHTML
     const form1 = document.querySelector('form')
     if(!form1) {
         return;
