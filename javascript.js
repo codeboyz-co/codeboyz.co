@@ -2,7 +2,11 @@
 class Contact {
   constructor () {
     this.form = document.querySelector('form');
+    if(!document.getElementsByClassName("fill") === '') {
     this.form.addEventListener('submit', () => this.submitForm());
+    } else {
+      return;
+    }
 
     this.toggleButton = document.querySelector('button.toggle');
     this.toggleButton.addEventListener('click', () => this.toggleForm());
