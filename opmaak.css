@@ -1,0 +1,41 @@
+
+#Titel {
+   color: white;
+   background-color: #8a8a8a;
+   padding: 10px;
+   text-align: center
+}
+
+#Contact {
+   color: white;
+   background-color: #8a8a8a;
+   padding: 35px;
+   text-align: center
+}
+.nav-link-wrapper {
+   color: black;
+   background-color: white;
+   padding: 10px;
+   text-align: left;
+   font-size: 0,9em;
+   margin-right: 20px;
+   text-transform: uppercase;
+}
+
+.container {
+   display: flex;
+}
+.nav-link-wrapper a {
+   color: grey;
+   text-decoration: none;
+   transition: color 0,5s;
+}
+.nav-link-wrapper:hover {
+   border-bottom: 1px solid #8a8a8a;
+   transition: color 0,5s;
+}
+.nav-link-wrapper a:hover {
+   color: black;
+   transition: color 0.5s;
+}
+
