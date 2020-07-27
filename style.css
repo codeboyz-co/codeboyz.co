@@ -17,7 +17,6 @@ header {
 }
 .title {
   display: flex;
-  text-align: center
 }
 .nav-link-wrapper {
   color: black;
