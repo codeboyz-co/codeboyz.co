@@ -3,7 +3,8 @@
   color: white;
   background-color: #8a8a8a;
   padding: 10px;
-  text-align: center
+  text-align: center;
+  display: flex
 }
 p.checkusout {
    font-style: italic
