@@ -16,7 +16,8 @@ header {
   text-align: center;
 }
 .title {
-  display: flex
+  display: flex;
+  text-align: center
 }
 .nav-link-wrapper {
   color: black;
