@@ -15,7 +15,9 @@ header {
   padding: 35px;
   text-align: center;
 }
-
+.headtext {
+ text-align: center;
+}
 .title {
   display: flex;
   align-items: center;
