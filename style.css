@@ -1,7 +1,7 @@
 
 #Title {
   color: white;
-  background-color: #8a8a8a;
+  background-color: lightblue;
   padding: 10px;
   text-align: center;
   
@@ -15,6 +15,7 @@ header {
   padding: 35px;
   text-align: center;
 }
+
 .title {
   display: flex;
   align-items: center;
