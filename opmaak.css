@@ -26,6 +26,8 @@
 }
 .container {
    display: flex;
+   background-color: lightblue;
+   color: white;
 }
 .nav-link-wrapper a {
    color: grey;
