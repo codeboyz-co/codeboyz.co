@@ -19,6 +19,7 @@ header {
 .title {
   display: flex;
   align-items: center;
+  background-color: lightblue;
 }
 .nav-link-wrapper {
   color: black;
