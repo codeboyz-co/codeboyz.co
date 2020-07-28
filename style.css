@@ -40,12 +40,12 @@ header {
   color: white;
 }
 .nav-link-wrapper a {
-  color: grey;
+  color: white;
   text-decoration: none;
   transition: color 0,5s;
 }
 .nav-link-wrapper:hover {
-  border-bottom: 1px solid #8a8a8a;
+  border-bottom: 1px solid white;
   transition: color 0,5s;
 }
 .nav-link-wrapper a:hover {
