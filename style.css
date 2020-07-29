@@ -36,7 +36,7 @@ header {
 
 .container {
   display: flex;
-  background-color: lightblue;
+  background-color: rgba(93, 185, 239, 1);
   color: white;
 }
 .nav-link-wrapper a {
