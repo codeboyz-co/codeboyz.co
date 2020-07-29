@@ -21,7 +21,7 @@ header {
 .title {
   display: flex;
   align-items: center;
-  background-color: rgb(31, 168, 214);
+  background-color: rgba(93, 185, 239, 1);
   color: white;
 }
 .nav-link-wrapper {
