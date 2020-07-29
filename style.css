@@ -34,7 +34,7 @@ header {
   text-transform: uppercase;
 }
 
-.container {
+.containerbody {
   display: flex;
   background-color: rgba(93, 185, 239, 1);
   color: white;
@@ -51,6 +51,9 @@ header {
 .nav-link-wrapper a:hover {
   color: black;
   transition: color 0.5s;
+}
+.containerfooter {
+  background-color: rgb(116, 194, 240);
 }
 
 
