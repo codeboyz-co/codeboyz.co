@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css"> 
+        <script src="javascript.js"></script>
 </head>
 <body>
   <p>Create a Calendly-appointment with us!</p>
@@ -10,8 +11,16 @@
         <option>15 Minutes</option>
         <option>30 minutes</option>
         <option>60 minutes</option>
-    </select>>
+    </select>
   </form>
+  <p>Select how long your appointment will take:</p>
+  <input type="radio" id="15mins" name="15mins" onselect="fifteenminutes()">
+  <label for="15mins">15 minutes</label>
+  <input type="radio" id="30mins" name="30mins" onselect="thirtyminutes()">
+  <label for="30mins">30 minutes</label>
+  <input type="radio" id="60mins" name="60mins" onselect="sixtyminutes()">
+  <label for="60mins">60 minutes</label>
+  <a href={this.url}>Make the appointment</a>
   <form action="https://calendly.com/obadja_ris/30min">
     <input type="submit" value="Creeër een 30-minuten-afspraak">
   </form>

@@ -6,7 +6,17 @@ class Contact {
   }
 
   submitForm () {
-    alert('Bedankt voor het invullen! Uw gegevens worden verwerkt');
-    
+    alert('Bedankt voor het invullen! Uw gegevens worden verwerkt');    
   }
+}
+let url = ""
+
+fifteenminutes() {
+  url = "https://calendly.com/obadja_ris/15min"
+}
+thirtyminutes() {
+  url = "https://calendly.com/obadja_ris/30min"
+}
+sixtyminutes() {
+  url = "https://calendly.com/obadja_ris/60min"
 }
