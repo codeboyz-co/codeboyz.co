@@ -3,7 +3,7 @@
   color: white;
   background-color: lightblue;
   padding: 10px;
-  text-align: center;
+  text-align: end;
   
 }
 p.checkusout {
@@ -23,6 +23,7 @@ header {
   align-items: center;
   background-color: rgba(93, 185, 239, 1);
   color: white;
+  
 }
 .nav-link-wrapper {
   color: white;
