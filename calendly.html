@@ -36,17 +36,22 @@
     <input type="submit" value="Creeër een 60-minuten-afspraak">
   </form>
     <form action="https://calendly.com/obadja_ris/15min">
-      <input type="submit" value="Create a appointment which takes">
+      <input type="submit" value="Create a appointment from 15 minutes">
     </form>
     <form action="https://calendly.com/obadja_ris/30min">
-      <input type="submit" value="Creeër een 30-minuten-afspraak">
+      <input type="submit" value="Create a appointment from 30 minutes">
     </form>
     <form action="https://calendly.com/obadja_ris/60min">
-      <input type="submit" value="Creeër een 60-minuten-afspraak">
+      <input type="submit" value="Create a appointment from 60 minutes">
     </form> -->
     <a class="button" href="" id="link">The link appears here</a>
     
     <button onclick="linkappear1()">I want a appointment from 15 minutes</button>
     <br><button onclick="linkappear2()">I want a appointment from 30 minutes</button>
     <br><button onclick="linkappear3()">I want a appointment from 60 minutes</button>
+
+    <input type="radio" onselect="linkappear1()" value="I want a appointment from 15 minutes">
+    <input type="radio" onselect="linkappear2()" value="I want a appointment from 30 minutes">
+    <input type="radio" onselect="linkappear3()" value="I want a appointment from 60 minutes">
+    <a class="button" href="" id="link">Make the appointment</a>
 </body>
