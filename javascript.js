@@ -21,3 +21,12 @@ function minutes() {
     url = "https://calendly.com/obadja_ris/60min"
   }
 }
+function linkappear1() {
+  document.getElementById("link").innerHTML = "https://calendly.com/obadja_ris/15min"
+}
+function linkappear2() {
+  document.getElementById("link").innerHTML = "https://calendly.com/obadja_ris/30min"
+}
+function linkappear3() {
+  document.getElementById("link").innerHTML = "https://calendly.com/obadja_ris/60min"
+}
