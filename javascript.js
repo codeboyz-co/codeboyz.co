@@ -14,11 +14,11 @@ let url = ""
 
 function minutes() {
   if(document.getElementById('15mins').checked) {
-    url = "https://calendly.com/obadja_ris/15min"
+    linkappear1()
   }else if(document.getElementById('30 mins').checked) {
-    url = "https://calendly.com/obadja_ris/30min"
+    linkappear2()
   }else if(document.getElementById('60mins').checked){
-    url = "https://calendly.com/obadja_ris/60min"
+    linkappear3()
   }
 }
 function linkappear1() {
