@@ -22,7 +22,7 @@ function minutes() {
   }
 }
 function linkappear1() {
-  document.getElementById("link").innerHTML = "https://calendly.com/obadja_ris/15min"
+  document.getElementById("link").innerHTML = "<a href='https://calendly.com/obadja_ris/15min'></a>"
 }
 function linkappear2() {
   document.getElementById("link").innerHTML = "https://calendly.com/obadja_ris/30min"
