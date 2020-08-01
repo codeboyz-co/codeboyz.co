@@ -9,16 +9,13 @@ class Contact {
     alert('Bedankt voor het invullen! Uw gegevens worden verwerkt');    
   }
 }
-let url = ""
-
-
 function minutes() {
   if(document.getElementById('15mins').checked) {
-    linkappear1()
+    document.getElementById("link").href ="https://calendly.com/obadja_ris/15min"
   }else if(document.getElementById('30 mins').checked) {
-    linkappear2()
+    document.getElementById("link").href = "https://calendly.com/obadja_ris/30min"
   }else if(document.getElementById('60mins').checked){
-    linkappear3()
+    document.getElementById("link").href = "https://calendly.com/obadja_ris/60min"
   }
 }
 function linkappear1() {
