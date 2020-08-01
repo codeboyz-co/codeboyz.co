@@ -24,6 +24,7 @@ function minutes() {
 function linkappear1() {
   document.getElementById("link").innerHTML = "Click on the button below"
   document.getElementById("link2").onclick = "window.location.href='https://calendly.com/obadja_ris/30min'"
+  document.getElementById("link2").innerHTML = "Click me"
 }
 function linkappear2() {
   document.getElementById("link").innerHTML = "https://calendly.com/obadja_ris/30min"
