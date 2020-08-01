@@ -11,12 +11,13 @@ class Contact {
 }
 let url = ""
 
-fifteenminutes() {
-  url = "https://calendly.com/obadja_ris/15min"
-}
-thirtyminutes() {
-  url = "https://calendly.com/obadja_ris/30min"
-}
-sixtyminutes() {
-  url = "https://calendly.com/obadja_ris/60min"
+
+function minutes() {
+  if(document.getElementById('15mins').checked) {
+    url = "https://calendly.com/obadja_ris/15min"
+  }else if(document.getElementById('30 mins').checked) {
+    url = "https://calendly.com/obadja_ris/30min"
+  }else if(document.getElementById('60mins').checked){
+    url = "https://calendly.com/obadja_ris/60min"
+  }
 }
