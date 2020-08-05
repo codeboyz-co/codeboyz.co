@@ -24,7 +24,7 @@
   <!--<p>Select how long your appointment will take:</p>
   <input type="radio" id="15mins" name="15mins">
   <label for="15mins">15 minutes</label>
-  <input type="radio" id="30mins" name="30mins">
+  <input type="radio" id="30mins" name="30mins" value=>
   <label for="30mins">30 minutes</label>
   <input type="radio" id="60mins" name="60mins">
   <label for="60mins">60 minutes</label>
@@ -36,25 +36,20 @@
     <input type="submit" value="Creeër een 60-minuten-afspraak">
   </form> -->
   <p>Below, click the button with the time that fits you for an appointment</p>
-    <form action="https://calendly.com/obadja_ris/15min">
-      <input type="submit" value="Create a appointment from 15 minutes">
-    </form>
-    <form action="https://calendly.com/obadja_ris/30min">
-      <input type="submit" value="Create a appointment from 30 minutes">
-    </form>
-    <form action="https://calendly.com/obadja_ris/60min">
-      <input type="submit" value="Create a appointment from 60 minutes">
-    </form> 
+    
     <!--<a class="button" href="" id="link">The link appears here</a>
     
     <button onclick="linkappear1()">I want a appointment from 15 minutes</button>
     <br><button onclick="linkappear2()">I want a appointment from 30 minutes</button>
     <br><button onclick="linkappear3()">I want a appointment from 60 minutes</button> -->
 
-    <!-- <input type="radio"  id="15mins">
-    <input type="radio"  id="30mins">
-    <input type="radio"  id="60mins">
-    <a class="button" href="" id="link">Make the appointment</a> -->
+    <form action="javascript://">
+        <input type="radio" name="calendly" id="15mins" value="https://calendly.com/obadja_ris/15min">
+        <input type="radio" name="calendly" id="30mins" value="https://calendly.com/obadja_ris/30min">
+        <input type="radio" name="calendly" id="60mins" value="https://calendly.com/obadja_ris/30min">
+        <button type="submit">Make the appointment</a>
+    </form>
+    <script>new Calendly();</script>
 </body>
 <foot>
     <div class="containerfooter">

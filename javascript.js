@@ -9,7 +9,22 @@ class Contact {
     alert('Bedankt voor het invullen! Uw gegevens worden verwerkt');    
   }
 }
+
+
+class Calendly {
+  constructor () {
+    this.form = document.querySelector('form')
+    this.form.addEventListener('submit', () => this.submitForm());
+  }
+
+  submitForm () {
+    const url = this.form.calendly.value;
+    window.open(url)
+  }
+}
+
 function minutes() {
+  
   if(document.getElementById('15mins').checked) {
     document.getElementById("link").href ="https://calendly.com/obadja_ris/15min"
   }else if(document.getElementById('30 mins').checked) {
