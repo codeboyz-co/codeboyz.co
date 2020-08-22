@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
         <div class="title">
             <div class="imglogo">
-                <img src="Logo.png" alt="Logo van ons bedrijf"/>
+                <a href="index.html"><img src="Logo.png" alt="Logo van ons bedrijf"/></a>
             </div>
             <div class="headtext">
                 <h1 class="Titel">Calendly</h1>
@@ -37,29 +37,77 @@
   <form action="https://calendly.com/obadja_ris/60min">
     <input type="submit" value="Creeër een 60-minuten-afspraak">
   </form> -->
-  <p>Below, click the button with the time that fits you for an appointment</p>
+  
     
     <!--<a class="button" href="" id="link">The link appears here</a>
     
     <button onclick="linkappear1()">I want a appointment from 15 minutes</button>
     <br><button onclick="linkappear2()">I want a appointment from 30 minutes</button>
     <br><button onclick="linkappear3()">I want a appointment from 60 minutes</button> -->
-
+    <p>Make an calendly-appointment of ... minutes!</p>
     <form action="javascript://">
         <input type="radio" name="calendly" id="15mins" value="https://calendly.com/obadja_ris/15min">
+        <label for="15mins">15 minutes</label><br>
         <input type="radio" name="calendly" id="30mins" value="https://calendly.com/obadja_ris/30min">
-        <input type="radio" name="calendly" id="60mins" value="https://calendly.com/obadja_ris/30min">
-        <button type="submit">Make the appointment</a>
+        <label for="30mins">30 minutes</label><br>
+       <input type="radio" name="calendly" id="60mins" value="https://calendly.com/obadja_ris/60min">
+       <label for="60mins">60 minutes</label><br>
+        <button type="submit">Make the appointment</button>
     </form>
     <script>new Calendly();</script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </body>
-<foot>
+<footer>
     <div class="containerfooter">
-        <div class="calendlylink">
+        <div class="link">
           <a href="calendly.html"><img src="Logo-Calendly.png"/></a>
         </div>
+        <div class="link">
+            <a href="instagram.com"><img src="GlyphLogo_May2016_Onlinev2 2/glyph-logo_May2016.png"/></a>
+          </div>
+          
+        <div class="widget">
+            <!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/obadja_ris', text: 'Schedule time with me', color: '#00a2ff', textColor: '#ffffff', branding: true });</script>
+<!-- Calendly badge widget end -->
+        </div>
+   
+        <!--<div class="try">
+            <div class="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2" data-block-type="54" id="block-yui_3_17_2_1_1541764955973_4135"><div class="sqs-block-content" id="yui_3_17_2_1_1598086075178_240">
+
+
+
+                <div class="sqs-svg-icon--outer social-icon-alignment-center social-icons-color-white social-icons-size-small social-icons-style-regular " id="yui_3_17_2_1_1598086075178_239">
+                  <nav class="sqs-svg-icon--list" id="yui_3_17_2_1_1598086075178_238">
+                    <a href="https://www.linkedin.com/in/nienke-ris-stolk-2flourish-83577920/" target="_blank" class="sqs-svg-icon--wrapper linkedin" aria-label="Nienke Ris-Stolk">
+                      <div>
+                        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                          <use class="sqs-use--icon" xlink:href="#linkedin-icon"></use>
+                          <use class="sqs-use--mask" xlink:href="#linkedin-mask"></use>
+                        </svg>
+                      </div>
+                    </a><a href="mailto:nienke@2flourish.nl" target="_blank" class="sqs-svg-icon--wrapper email" aria-label="nienke@2flourish.nl">
+                      <div>
+                        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                          <use class="sqs-use--icon" xlink:href="#email-icon"></use>
+                          <use class="sqs-use--mask" xlink:href="#email-mask"></use>
+                        </svg>
+                      </div>
+                    </a><a href="https://www.facebook.com/2flourish/" target="_blank" class="sqs-svg-icon--wrapper facebook-unauth" aria-label="Facebook">
+                      <div>
+                        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                          <use class="sqs-use--icon" xlink:href="#facebook-unauth-icon"></use>
+                          <use class="sqs-use--mask" xlink:href="#facebook-unauth-mask"></use>
+                        </svg>
+                      </div>
+                    </a>
+                  </nav>
+                </div>
+                </div></div>
+        </div>-->
       </div>
-</foot>
+</footer>
 </html>

@@ -1,9 +1,9 @@
 
 .Titel {
   color: white;
-  background-color: lightblue;
+  background-color: rgba(93, 185, 239, 1);
   padding: 10px;
-  text-align: end;
+  text-align: center;
   
 }
 p.checkusout {
@@ -53,18 +53,17 @@ header {
   transition: color 0.5s;
 }
 .containerfooter {
-  background-color: rgb(116, 194, 240);
-}
-.button {
-  background-color: #1c87c9;
-  border: none;
+  display: flex;
+  align-items: center;
+  background-color: rgba(93, 185, 239, 1);
   color: white;
-  padding: 20px 34px;
-  text-align: center;
-  text-decoration: none;
-  
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
+.link {
+  color: white;
+  background-color: rgba(93, 185, 239, 1);
+  padding: 60px;
+  text-align: center;
+  margin: auto;
+}
+
 
