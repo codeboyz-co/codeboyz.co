@@ -53,7 +53,7 @@ header {
   transition: color 0.5s;
 }
 .containerfooter {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   background-color: rgba(93, 185, 239, 1);
   color: white;
@@ -61,7 +61,7 @@ header {
 .link {
   color: white;
   background-color: rgba(93, 185, 239, 1);
-  padding: 60px;
+  padding: 10px;
   text-align: center;
   margin: auto;
 }
