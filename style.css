@@ -1,29 +1,38 @@
-
-.Titel {
+/* Body */
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+/* Body end */
+/* Head */
+.Title {
   color: white;
   background-color: rgba(93, 185, 239, 1);
   padding: 10px;
   text-align: center;
   
 }
-p.checkusout {
-   font-style: italic
-}
-header {
-  color: white;
-  background-color: lightblue;
-  padding: 35px;
-  text-align: center;
-}
-.headtext {
- text-align: center;
-}
 .title {
   display: flex;
   align-items: center;
   background-color: rgba(93, 185, 239, 1);
   color: white;
-  
+}
+.headtext {
+  text-align: center;
+ }
+/* Head end */
+/* Check Us Out! */
+p.checkusout {
+   font-style: italic
+}
+/* Check Us Out! end */
+/* Page wrapper */
+.page-wrapper {
+  display: flex;
+  background-color: rgba(93, 185, 239, 1);
+  color: white;
 }
 .nav-link-wrapper {
   color: white;
@@ -33,11 +42,6 @@ header {
   font-size: 0,9em;
   margin-right: 20px;
   text-transform: uppercase;
-}
-.container {
-  display: flex;
-  background-color: rgba(93, 185, 239, 1);
-  color: white;
 }
 .nav-link-wrapper a {
   color: white;
@@ -52,18 +56,43 @@ header {
   color: black;
   transition: color 0.5s;
 }
-.containerfooter {
-  display: inline-flex;
-  align-items: center;
-  background-color: rgba(93, 185, 239, 1);
+/* Page wrapper end */
+/* Footer */
+.footer {
+  background: rgba(93, 185, 239, 1);
   color: white;
+  height: 400px;
+  position: relative;
+  
+}
+.footer .footer-bottom {
+  background: rgb(65, 173, 235);
+  color: white;
+  position: fixed;
+  text-align: center;
+  padding-top: 20px;
+  bottom: 0;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  
+}
+.footer .footer-content {
+  display: flex;
+  align-items: center;
+  display: flex;
+  height: 350px;
+  
+}
+.footer .footer-content .footer-section {
+  flex: 1;
+  border: 1px solid white;
+  padding: 25px;
+  height: 300px;
+  min-height: 100px;
 }
 .link {
-  color: white;
-  background-color: rgba(93, 185, 239, 1);
-  padding: 10px;
-  text-align: center;
-  margin: auto;
+    flex: 33.33%;
+    padding: 40px;
 }
-
-
+/* Footer end */
